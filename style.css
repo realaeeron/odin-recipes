@@ -35,6 +35,14 @@ a:hover {
 .hero {
     background-color: #ffe4c4;
     text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.homepage-banner {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    width: 60%;
 }
 
 .recipes-list {
