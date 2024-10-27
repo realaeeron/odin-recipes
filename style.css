@@ -1,6 +1,6 @@
 /* style.css */
 
-
+/* General css */
 body {
     margin: 0;
     background-color: #ffffff;
@@ -15,10 +15,6 @@ img {
     max-width: 100%;
 }
 
-.h1-title {
-    font-size: 4rem;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -29,6 +25,13 @@ a:hover {
     text-decoration: underline;
 }
 
+.h1-title {
+    font-size: 3rem;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+
+/* homepage css */
 .hero {
     background-color: #ffe4c4;
     text-align: center;
@@ -40,4 +43,29 @@ a:hover {
 
 .recipes-list ul {
     list-style: none;
+}
+
+/* Recipes pages css */
+
+.recipes-pages-hero {
+    padding : 1rem 0 2rem 0;
+    background-color: #ffe4c4;
+    text-align: center;
+}
+
+.banner-img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+.process {
+    padding: 0px 1.5rem 0px 1.5rem
+}
+
+.h2-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2em;
 }
