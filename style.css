@@ -1,7 +1,43 @@
 /* style.css */
 
+
 body {
+    margin: 0;
+    background-color: #ffffff;
     font-family: Poppins, Inter, sans-serif;
     font-size: 1rem;
     font-weight: normal;
+}
+
+img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.h1-title {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #9b7444;
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #ffe4c4;
+    text-align: center;
+}
+
+.recipes-list {
+    text-align: center;
+}
+
+.recipes-list ul {
+    list-style: none;
 }
